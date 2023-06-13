@@ -1,0 +1,18 @@
+.form {
+  margin: 10px;
+  padding: 5px;
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+.filter {
+  margin: 10px;
+}
+
+.delete {
+  margin-left: 10px;
+  cursor: pointer;
+}
