@@ -66,3 +66,43 @@ button:hover {
   border-color: #207bbf;
   box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
+
+.contact_block {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contact_list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.contact_item span {
+  font-weight: bold;
+}
+
+.contact_button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.contact_button:hover {
+  background-color: #207bbf;
+}
